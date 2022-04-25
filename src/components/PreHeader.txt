@@ -1,0 +1,45 @@
+// import { Link } from 'react-router-dom';
+// import styled from 'styled-components';
+// import PricingButton from './button/Pricing';
+// import LunchingButton from './button/Lunching';
+// import LogoIcon from '../Logo/LogoIcon';
+// import chrome from '../../resources/images/chrome.svg';
+
+// export default function Header() {
+//   return (
+//     <TopHeader>
+//       <LogoIcon className='mr-auto' />
+//       <StyledLink className='align-center' to='/chrome-extension'>
+//         <img src={chrome} style={{ marginRight: '18px' }}></img>Chrome Extension
+//       </StyledLink>
+//       <StyledLink className='align-center' to='/faq'>
+//         FAQ
+//       </StyledLink>
+//       <PricingButton class='mr-46' />
+//       <LunchingButton />
+//     </TopHeader>
+//   );
+// }
+
+// const TopHeader = styled.div`
+//   padding: 33px;
+//   position: fixed;
+//   top: 0;
+//   width: -webkit-fill-available;
+//   backdrop-filter: blur(4px);
+//   display: flex;
+//   // background: rgba(255, 255, 255, 0.1);
+
+//   & .align-center {
+//     display: flex;
+//     align-items: center;
+//   }
+//   & .mr-auto {
+//     margin-right: auto;
+//   }
+// `;
+
+// const StyledLink = styled(Link)`
+//   text-decoration: none;
+//   padding-right: 30px;
+// `;

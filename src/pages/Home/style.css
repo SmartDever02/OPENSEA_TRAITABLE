@@ -1,0 +1,27 @@
+.MuiAccordionSummary-expandIconWrapper {
+  /* text-align: center; */
+  min-height: 48px;
+  min-width: 48px;
+  max-height: 48px;
+  max-width: 48px;
+  font-size: 30px;
+  font-weight: 800;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(16, 18, 91, 1) !important;
+}
+
+.MuiAccordionSummary-expandIconWrapper:hover {
+  background: linear-gradient(
+    90deg,
+    #3d5bfb 0%,
+    #635af0 13%,
+    #9765ee 25%,
+    #b572ed 38%,
+    #ea70e2 50%,
+    #fd81ae 62%,
+    #ffb6aa 75%,
+    #ffcba4 87%,
+    #ffe5b7 100%
+  );
+}

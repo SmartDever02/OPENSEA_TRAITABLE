@@ -1,0 +1,58 @@
+.MuiDataGrid-root {
+  border: 1px solid #333575 !important;
+
+  background: linear-gradient(
+    64.72deg,
+    rgba(176, 165, 194, 0.111) 26.48%,
+    rgba(176, 165, 194, 0.051) 101.16%
+  );
+  /* Branding/Colors/07 */
+
+  border: 1px solid #333575;
+  box-sizing: border-box;
+  backdrop-filter: blur(58px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 24px;
+}
+
+.index {
+  font-size: 24px;
+  width: 100%;
+  text-align: center;
+}
+
+.MuiDataGrid-footerContainer {
+  display: none !important;
+}
+
+.MuiDataGrid-columnHeaderTitle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 20px;
+  line-height: 144.52%;
+  /* identical to box height, or 29px */
+
+  letter-spacing: -0.02em;
+}
+
+.MuiDataGrid-cellContent,
+.innerContent {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 144.52%;
+  /* identical to box height, or 29px */
+
+  letter-spacing: -0.02em;
+}
+
+.MuiDataGrid-cell {
+  border: 1px solid #333575 !important;
+}
+
+.MuiDataGrid-columnSeparator {
+  display: hidden !important;
+}

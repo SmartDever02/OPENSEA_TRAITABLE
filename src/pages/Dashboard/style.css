@@ -1,0 +1,62 @@
+.dashboard .MuiDataGrid-columnHeaderTitle {
+  font-family: 'Inter' !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 13px !important;
+  line-height: 144.52% !important;
+  /* or 19px */
+
+  align-items: center !important;
+  letter-spacing: -0.02em !important;
+  text-transform: uppercase !important;
+
+  color: #b3b5d9 !important;
+}
+
+.dashboard .MuiDataGrid-columnSeparator {
+  display: none !important;
+}
+
+.dashboard .MuiDataGrid-columnHeader {
+  padding: 13px 30px !important;
+}
+
+.collectionDetail .MuiDataGrid-footerContainer {
+  border-top: none;
+  background: transparent;
+  display: block !important;
+}
+.collectionDetail
+  .MuiDataGrid-footerContainer
+  .MuiTablePagination-displayedRows {
+  display: none !important;
+}
+.collectionDetail .MuiToolbar-root {
+  position: static;
+}
+.collectionDetail .MuiTablePagination-actions {
+  display: block;
+  position: absolute;
+  top: -48px;
+  left: 1000px;
+}
+
+.collectionDetail .MuiTablePagination-actions .MuiButtonBase-root {
+  width: 45px;
+  height: 45px;
+  /* background: transparent; */
+  border: 1px solid black;
+  border: 0.843137px solid rgba(102, 104, 161, 0.6);
+  box-sizing: border-box;
+  border-radius: 0px;
+}
+.collectionDetail .MuiTablePagination-actions .MuiButtonBase-root:last-child {
+  margin-left: 120px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.collectionDetail .MuiTablePagination-actions .MuiButtonBase-root:first-child {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
